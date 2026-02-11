@@ -33,14 +33,14 @@ export default function Footer() {
         </div>
 
         {/* Hours */}
+        {/* Hours */}
         <div className="mt-3 flex items-start gap-2">
           <IconClock />
           <div>
-            <div>Mon – Thu: 11am – 10pm</div>
-            <div>Fri – Sat: 11am – 11pm</div>
-            <div>Sun: 12pm – 10pm</div>
+            <div>Mon - Sun: 11am - 9pm</div>
           </div>
         </div>
+
 
         {/* Divider */}
         <div className="my-4 h-px w-full bg-cream/10" />
