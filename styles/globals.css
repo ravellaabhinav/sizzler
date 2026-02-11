@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-maroon-950 text-cream font-sans antialiased;
+}
+
+a { @apply text-cream/90 hover:text-cream; }
+
+::selection { background: rgba(215, 180, 106, 0.35); }
+
+.container-pad {
+  @apply mx-auto w-full max-w-6xl px-4;
+}
+
+/* Space to clear the floating header height + top margin */
+.page-under-header {
+  @apply pt-24; /* ~96px */
+}
+
+/* ===== Menu Item Badges ===== */
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-bold uppercase tracking-wide shadow-md;
+}
+
+/* Veg – green */
+.badge-veg {
+  @apply bg-emerald-600 text-white;
+}
+
+/* Popular – gold */
+.badge-popular {
+  @apply bg-gold-500 text-ink;
+}
+
+/* Spicy – red */
+.badge-spicy {
+  @apply bg-red-600 text-white;
+}
