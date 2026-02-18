@@ -140,14 +140,14 @@ export const menu: MenuItem[] = [
   { id: "chicken-korma", name: "Chicken Korma", description: "Chicken cooked in rich mild cashew sauce.", price: 14.99, image:"/images/chicken_images/chk12.png" , category:"Chicken" },
 
   // Lamb & Seafood (page 5)
-  { id: "lamb-curry", name: "Lamb Curry", description: "Lamb cooked in rich, aromatic traditional Indian curry sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
-  { id: "lamb-vindaloo", name: "Lamb Vindaloo", description: "Lamb cooked in tangy sauce and potatoes.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood", spicy: true },
-  { id: "lamb-roganjosh", name: "Lamb Roganjosh", description: "A British favorite—lamb curry from Kashmir.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
-  { id: "lamb-saag", name: "Lamb Saag", description: "Lamb cooked in spinach sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
-  { id: "lamb-tikka-masala", name: "Lamb Tikka Masala", description: "Lamb cooked in rich, creamy cashew-tomato sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
-  { id: "lamb-khorma", name: "Lamb Khorma", description: "Lamb cooked in rich mild cashew sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
+  { id: "lamb-curry", name: "Lamb Curry", description: "Lamb cooked in rich, aromatic traditional Indian curry sauce.", price: 16.99, image: "/images/lamb/Lc.png", category: "Lamb & Seafood" },
+  { id: "lamb-vindaloo", name: "Lamb Vindaloo", description: "Lamb cooked in tangy sauce and potatoes.", price: 16.99, image: "/images/lamb/Lamb_Vindaloo.png", category: "Lamb & Seafood", spicy: true },
+  { id: "lamb-roganjosh", name: "Lamb Roganjosh", description: "A British favorite—lamb curry from Kashmir.", price: 16.99, image: "/images/lamb/LambRoganjosh.png", category: "Lamb & Seafood" },
+  { id: "lamb-saag", name: "Lamb Saag", description: "Lamb cooked in spinach sauce.", price: 16.99, image: "/images/lamb/LambSaag.png", category: "Lamb & Seafood" },
+  { id: "lamb-tikka-masala", name: "Lamb Tikka Masala", description: "Lamb cooked in rich, creamy cashew-tomato sauce.", price: 16.99, image: "/images/lamb/LambTikkaMasala.png", category: "Lamb & Seafood" },
+  { id: "lamb-khorma", name: "Lamb Khorma", description: "Lamb cooked in rich mild cashew sauce.", price: 16.99, image: "/images/lamb/LAMBKHORMA.png", category: "Lamb & Seafood" },
 
-  { id: "fish-curry", name: "Fish Curry", description: "Fish cooked in traditional Indian tangy sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
+  { id: "fish-curry", name: "Fish Curry", description: "Fish cooked in traditional Indian tangy sauce.", price: 16.99, image: "/images/lamb/FISHCURRY.png", category: "Lamb & Seafood" },
   { id: "shrimp-vindaloo", name: "Shrimp Vindaloo", description: "Shrimp cooked in tangy sauce along with potatoes.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood", spicy: true },
   { id: "shrimp-malai-curry", name: "Shrimp Malai Curry", description: "Shrimp with enriched creamy sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
 
