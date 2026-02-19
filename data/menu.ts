@@ -148,8 +148,8 @@ export const menu: MenuItem[] = [
   { id: "lamb-khorma", name: "Lamb Khorma", description: "Lamb cooked in rich mild cashew sauce.", price: 16.99, image: "/images/lamb/LAMBKHORMA.png", category: "Lamb & Seafood" },
 
   { id: "fish-curry", name: "Fish Curry", description: "Fish cooked in traditional Indian tangy sauce.", price: 16.99, image: "/images/lamb/FISHCURRY.png", category: "Lamb & Seafood" },
-  { id: "shrimp-vindaloo", name: "Shrimp Vindaloo", description: "Shrimp cooked in tangy sauce along with potatoes.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood", spicy: true },
-  { id: "shrimp-malai-curry", name: "Shrimp Malai Curry", description: "Shrimp with enriched creamy sauce.", price: 16.99, image: "/images/placeholder.png", category: "Lamb & Seafood" },
+  { id: "shrimp-vindaloo", name: "Shrimp Vindaloo", description: "Shrimp cooked in tangy sauce along with potatoes.", price: 16.99, image: "/images/lamb/shrimp02.png", category: "Lamb & Seafood", spicy: true },
+  { id: "shrimp-malai-curry", name: "Shrimp Malai Curry", description: "Shrimp with enriched creamy sauce.", price: 16.99, image: "/images/lamb/shrimp01.png", category: "Lamb & Seafood" },
 
   // Tandoori Specials (page 6)
   { id: "tandoori-chicken", name: "Tandoori Chicken", description: "Marinated diced chicken breast cooked in Indian clay oven and served on sizzler.", price: 17.99, image: "/images/tandoor/tnd01.png", category: "Tandoor", popular: true },
